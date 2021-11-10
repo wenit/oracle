@@ -1,6 +1,6 @@
 # GORM Oracle Driver
 
-![](https://starchart.cc/CengSin/oracle.svg)
+this lib fork from github.com/cengsin/oracle
 
 ## Description
 
@@ -13,16 +13,17 @@ GORM Oracle driver for connect Oracle DB and Manage Oracle DB, Based on [stevefa
 - see [ODPI-C Installation.](https://oracle.github.io/odpi/doc/installation.html)
 
 ## Quick Start
+
 ### how to install 
 ```bash
-go get github.com/cengsin/oracle
+go get github.com/wenit/oracle
 ```
 ###  usage
 
 ```go
 import (
 	"fmt"
-	"github.com/cengsin/oracle"
+	"github.com/wenit/oracle"
 	"gorm.io/gorm"
 	"log"
 )
